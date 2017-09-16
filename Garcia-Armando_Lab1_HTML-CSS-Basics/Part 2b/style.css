@@ -1,0 +1,39 @@
+body {
+    background: url("images/background.jpg") no-repeat fixed;
+    display: block;
+    margin: 8px;
+    font-family: arial, sans-serif;
+}
+
+.box,
+.shadow-box {
+    display: block;
+    border-top-left-radius: 20px;
+    border: 1px solid brown;
+    background-color: #f5f5dc;
+    margin: 0 0 25px 25px;
+    width: 248px;
+}
+
+.shadow-box {
+    border-radius: 0 0 0 20px;
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(169,169,169,0.9);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(169,169,169,0.9);
+    box-shadow: 10px 10px 10px 0px rgba(169,169,169,0.9);
+}
+
+h1 {
+    display: block;
+    font-size: 3em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 13px;
+    margin: 0;
+    padding: 15px 20px;
+}
